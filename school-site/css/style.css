@@ -1,0 +1,222 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* Layout */
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: .125rem solid #33658A;
+  border-bottom: .125rem solid #33658A;
+}
+
+/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
+
+/* NO changes should be made to any of the code above. */
+
+/* NOTE: While you will be using some of the same CSS properties, the VALUES 
+   may need to be different in order to style the page correctly. */
+
+
+
+/* Imported Typfaces */
+
+@font-face {
+font-family:Josefinslab;
+src: url(/fonts/josefinslab-regular.ttf) format('truetype');
+font-weight:normal;
+font-style:normal;
+}
+@font-face {
+    font-family:Montserrat;
+    src: url(/fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+/* Typography Styles */
+
+html {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    letter-spacing: 0.125em;
+    font-family: Josefinslab, Arial, Helvetica, sans-serif;
+    font-size: 3.75em;
+    margin: 1.125em;
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: 0.125em;
+    font-family: Josefinslab, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+h2 + p {
+    font-size: .75em;
+    letter-spacing: .03125em;
+    word-spacing: .125em;
+}
+
+p {
+    font-size: .75em;
+    letter-spacing: .03125em;
+    word-spacing: .125em;
+    text-indent: 1.5em;
+}
+
+li {
+    font-size: .75em;
+    letter-spacing: .03125em;
+    word-spacing: .125em;
+    text-indent: 1.5em; 
+}
+
+figcaption {
+    font-style: .75em;
+    margin-bottom: 2em;
+}
+
+
+/* Link Styling */
+
+a {
+    outline: none;
+}
+
+a:link, 
+a:visited {
+    color:  #33658A;
+}
+
+a:focus, 
+a:hover {
+    border-bottom: 1px solid;
+}
+
+
+/* List Styling */
+
+ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
+    list-style-type: square;
+}
+
+ol {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
+    list-style-type: lower-alpha;
+}
+
+.long-list a:hover {
+    transform-style: initial;
+}
+
+
+/* Navigation Menu */
+
+nav {
+    padding-left: 0em;
+    margin-top: .25em;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%; 
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125em;
+    margin-bottom: 1.5em;
+    border-style: solid; 
+    width: .063em; 
+    color: #33658a;
+}
+
+nav a:focus,
+nav a:hover {
+    color: #fff;
+    background-color: #33658A;
+}
+
+nav a:active {
+    color: #fff;
+    background-color: #000;
+}
+
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+}
+
+
+
+
