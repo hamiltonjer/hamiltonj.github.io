@@ -51,7 +51,7 @@ html {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 body {
@@ -64,7 +64,6 @@ body {
 } 
 
 header {
-    border-bottom: .0625rem solid #333;
     margin-bottom:4rem;
     padding-bottom:2rem;
   
@@ -80,7 +79,8 @@ h1 {
 }
 
 h1 span {
-    color:#8C2B3F;
+    color:#e7e7be;
+    background: #495F83; width: fit-content; height: fit-content;
 }
 
 h2 {
@@ -108,14 +108,14 @@ blockquote {
 }
 
 nav {
-      float:left;
-      display: flex;
+      flex-direction: row;
+      display: inline-block;
       flex-wrap:wrap;
-      flex-direction: column;
-      width:14rem;
+      flex-direction: row;
+      width:80rem;
       border:.0625rem solid #333;
-      background-color:#8FB0D0;
-      position:fixed;
+      background-color:#ffffff;
+      position:static
 }
 
 nav img {
@@ -231,26 +231,6 @@ figcaption a {
     color:#B1BED3;
 }
 
-figure video,
-figure iframe {
-    border:none;
-    background-color:#000;
-}
-
-/* || Written Content */
-
-article {
-  margin:0;
-}
-
-article>p {
-  margin-top:0;
-}
-
-article>p>a {
-    
-    color:darkblue;
-}
 
 /* || Footer Layout */
 
@@ -258,7 +238,7 @@ footer {
     clear:both;
     overflow:auto;
     margin:3% 2%;
-    border-top: 1px solid #333;
+    
 }
 
 .copyright {
